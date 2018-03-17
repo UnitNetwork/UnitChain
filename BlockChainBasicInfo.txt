@@ -1,0 +1,14 @@
+1. User产生Transaction，广播到整个网络
+2. 所有的miner都拥有一个buffer，contains recent transactions
+3. Miner产生新的Block且publish到网络上时，将recent transcation添加进Block
+4. 当每产生一个新的block的时候，会有一个candidate block contains a ramdom Hash Value， that has ”nDifficulty“ 个 0在前面
+5. 当Miner run minning process，也就是 random guess value， take the value in to the Hash(value) function
+6. If value
+
+
+
+nDifficult = 3
+000*******
+
+nDifficult = 5
+00000UJXJS 
